@@ -10,6 +10,7 @@ Follow these steps to get the Laravel project up and running on your local machi
 
 - "php": "^8.1"
 - Composer (https://getcomposer.org/)
+- sqlite
 
 ### Installation
 
@@ -28,7 +29,11 @@ Follow these steps to get the Laravel project up and running on your local machi
 
     php artisan migrate:fresh --seed
 
+   touch database/database.sqlite
+
     php artisan serve
+
+    php artisan app:fetch-tasks-command
 
     go to http://localhost:8000/tasks
 
