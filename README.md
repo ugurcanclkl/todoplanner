@@ -8,19 +8,17 @@ Follow these steps to get the Laravel project up and running on your local machi
 
 ### Prerequisites
 
-- PHP (>= 7.3)
+- "php": "^8.1"
 - Composer (https://getcomposer.org/)
-- Node.js and npm (https://nodejs.org/)
-- MySQL or any other preferred database system
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/laravel-project.git
+   git clone https://github.com/ugurcanclkl/todoplanner.git
 
-   cd TODOPLANNER
+   cd todoplanner
 
    composer install
 
